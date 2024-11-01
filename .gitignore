@@ -10,6 +10,7 @@
 
 # RStudio files
 .Rproj.user/
+*.Rproj
 
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
@@ -24,3 +25,9 @@
 
 # R Environment Variables
 .Renviron
+
+# Image files
+images/*.png
+
+# log file
+log.txt

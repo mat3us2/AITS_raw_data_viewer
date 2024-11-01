@@ -5,7 +5,7 @@ R Shiny app for preprocessing and viewing raw data from the Automated Insect Tra
 This app takes minimally preprocessed data from an array of 21 VHF receivers and plots it for review. The generated figures served to spot inconsistencies in the data (eg. bursts of RF noise) and detect receiver downtime.
 
 Here's what the app does:
-1. At runtime: app checks the contents of the `./data folder`, extracts the dates from files' timestamps, and populates the calendar selector ("Choose a date"); a placeholder figure is displayed.
+1. At runtime: app checks the contents of the `./data` folder, extracts the dates from files' timestamps, and populates the calendar selector ("Choose a date"); a placeholder figure is displayed.
 
 2. The user is expected to select a date from the date selector (Available dates: Oct, Nov, or Dec 2017). The data are most dense around Nov 10 -- Nov 19, and 173330 and 173950 are the most interesting frequencies, including recorded movements of 173950 on 2017-11-02.
 

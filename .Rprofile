@@ -1,0 +1,8 @@
+source("renv/activate.R")
+options(renv.config.pak.enabled = TRUE)
+library(pak)
+library(usethis)
+library(sessioninfo)
+library(lubridate)
+# options("renv.config.pak.enabled")
+message("Config loaded")
